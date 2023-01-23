@@ -15,58 +15,58 @@ sqa_criteria:
     repos:
       github.com/eWaterCycle/ewatercycle git:
         commands:
-        - /usr/bin/env sh .sqa/script.cozy-red-akbash.sh
-        container: qc.acc_lousy-pink-harrier
+        - /usr/bin/env sh .sqa/script.ugly-amethyst-fossa.sh
+        container: qc.acc_lumpy-charcoal-emu
   QC.Doc:
     repos:
       github.com/eWaterCycle/ewatercycle find_doc_files.py:
         commands:
-        - /usr/bin/env sh .sqa/script.seedy-salmon-panda.sh
-        container: qc.doc_tacky-cornflower-iguana
+        - /usr/bin/env sh .sqa/script.messy-myrtle-chin.sh
+        container: qc.doc_bluesy-fuchsia-dormouse
       github.com/eWaterCycle/ewatercycle git:
         commands:
-        - /usr/bin/env sh .sqa/script.tacky-cyan-caiman.sh
-        container: qc.doc_queasy-cornflower-mouse
+        - /usr/bin/env sh .sqa/script.skanky-viridian-argentino.sh
+        container: qc.doc_hasty-myrtle-whale
       github.com/eWaterCycle/ewatercycle markdownlint:
         commands:
-        - /usr/bin/env sh .sqa/script.homey-cinnamon-akbash.sh
-        container: qc.doc_slimy-azure-armadillo
+        - /usr/bin/env sh .sqa/script.chewy-aqua-frog.sh
+        container: qc.doc_squeaky-black-robin
       github.com/eWaterCycle/ewatercycle restructuredtext-lint:
         commands:
-        - /usr/bin/env sh .sqa/script.geeky-myrtle-wildebeest.sh
-        container: qc.doc_muggy-malachite-newfoundland
+        - /usr/bin/env sh .sqa/script.scummy-scarlet-discus.sh
+        container: qc.doc_tasty-khaki-dhole
   QC.Lic:
     repos:
       github.com/eWaterCycle/ewatercycle licensee:
         commands:
-        - /usr/bin/env sh .sqa/script.muggy-sangria-ferret.sh
-        container: qc.lic_muzzy-puce-dane
+        - /usr/bin/env sh .sqa/script.silly-taupe-antelope.sh
+        container: qc.lic_snazzy-lime-quetzal
   QC.Met:
     repos:
       github.com/eWaterCycle/ewatercycle cff-converter-python:
         commands:
-        - /usr/bin/env sh .sqa/script.cranky-violet-tuatara.sh
-        container: qc.met_gimpy-russet-flounder
+        - /usr/bin/env sh .sqa/script.snippy-azure-tuatara.sh
+        container: qc.met_lousy-tomato-quetzal
   QC.Sec:
     repos:
       github.com/eWaterCycle/ewatercycle bandit:
         commands:
-        - /usr/bin/env sh .sqa/script.sunny-linen-cuttlefish.sh
-        container: qc.sec_skanky-lilac-guppy
+        - /usr/bin/env sh .sqa/script.leaky-cerulean-gar.sh
+        container: qc.sec_skimpy-cornflower-saola
   QC.Sty:
     repos:
       github.com/eWaterCycle/ewatercycle flake8:
         commands:
-        - /usr/bin/env sh .sqa/script.fuzzy-gold-hippopotamus.sh
-        container: qc.sty_scaly-ivory-clam
+        - /usr/bin/env sh .sqa/script.snippy-ochre-hyrax.sh
+        container: qc.sty_slaphappy-red-oyster
       github.com/eWaterCycle/ewatercycle jsonlint:
         commands:
-        - /usr/bin/env sh .sqa/script.gimpy-lilac-mongrel.sh
-        container: qc.sty_surly-cobalt-gorilla
+        - /usr/bin/env sh .sqa/script.skanky-auburn-balinese.sh
+        container: qc.sty_pokey-chestnut-coyote
   QC.Ver:
     repos:
       github.com/eWaterCycle/ewatercycle get_git_tags.py:
         commands:
-        - /usr/bin/env sh .sqa/script.snappy-lavender-paradise.sh
-        container: qc.ver_randy-pumpkin-dodo
+        - /usr/bin/env sh .sqa/script.lousy-brass-dachsbracke.sh
+        container: qc.ver_shaggy-orchid-wolf
 timeout: 5400
